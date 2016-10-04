@@ -13,6 +13,7 @@ To learn more about Tools for Apache Cordova, visit this [link](https://taco.vis
 ## Requirements
 1. node.js
 2. Cordova and Ionic - npm install cordova ionic
+3. Angular JS - npm install angular
 4. Gulp - npm install gulp
 5. Bower - npm install bower
 
@@ -44,7 +45,7 @@ With Visual Studio Community:
 ## File Structure of App
 
 ```
-ionic-typescript-blank/
+Ionic_Cordova_AngularJS_Portfolio_Sample/
 ├── app/                               * Working directory for TypeScript files
 │   └── app.ts                         * Main Application configuration
 │
