@@ -1,4 +1,4 @@
-# Hybrid Cross Platform Mobile Applcation - Sample App 
+# Hybrid Cross Platform Mobile Application - Sample App 
 
 An application using Apache Cordova, Ionic Framework, and AngularJS. Currently supporting iOS, Android and Windows 10.
 
