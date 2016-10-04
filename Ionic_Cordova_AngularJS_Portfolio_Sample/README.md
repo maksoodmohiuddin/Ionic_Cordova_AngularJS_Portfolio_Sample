@@ -1,6 +1,6 @@
-# Ionic Blank Template
+# Hybrid Cross Platform Mobile Applcation  
 
-An application using Apache Cordova, Ionic Framework, and Typescript. Currently supporting iOS, Android and Windows 10.
+An application using Apache Cordova, Ionic Framework, and AngularJS. Currently supporting iOS, Android and Windows 10.
 
 ## Important!
 To learn more about Tools for Apache Cordova, visit this [link](https://taco.visualstudio.com/).
@@ -13,7 +13,6 @@ To learn more about Tools for Apache Cordova, visit this [link](https://taco.vis
 ## Requirements
 1. node.js
 2. Cordova and Ionic - npm install cordova ionic
-3. TypeScript - npm install typescript
 4. Gulp - npm install gulp
 5. Bower - npm install bower
 
@@ -32,9 +31,9 @@ With VS Code:
 * Launch the VS Code Command Palette – (Ctrl+Shift+P on Windows, Cmd+Shift+P on Mac) – and type the following command and hit Enter: 
 > ext install cordova-tools
 
-With Visual Studio:
+With Visual Studio Community:
 * Clone this repository.
-* Open the ionic-typescript-blank.sln in Visual Studio.
+* Open the Ionic_Cordova_AngularJS_Portfolio_Sample.sln in Visual Studio.
 * Open Task Runner window by pressing Ctrl+Alt+Bkspce. 
 ** Note: It is important that the task runner window be open in VS while building the project. You can also use "gulp watch" task to enable live reload in browser based debugging scenarios.    
 * Install npm packages by going to your Solution Explorer -> Dependencies -> npm and clicking on 'Restore Packages'. 
