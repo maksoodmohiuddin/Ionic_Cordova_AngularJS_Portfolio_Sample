@@ -1,25 +1,34 @@
-angular.module('marketSimulator.controllers', [])
+(function () {
+    'use strict';
 
-.controller('DashCtrl', function($scope) {})
+    var marketSimulatorControllers = angular.module('marketSimulator.controllers', []);
 
-.controller('StocksCtrl', function($scope, StocksService) {
-  // With the new view caching in Ionic, Controllers are only called
-  // when they are recreated or on app start, instead of every page change.
-  // To listen for when this page is active (for example, to refresh data),
-  // listen for the $ionicView.enter event:
-  //
-  //$scope.$on('$ionicView.enter', function(e) {
-  //});
+    marketSimulatorControllers.controller('DashCtrl',
+        function ($scope) {
+        });
 
-    $scope.stocks = StocksService.all();
-})
+    marketSimulatorControllers.controller('StocksCtrl',
+        function ($scope, StocksService) {
+            // With the new view caching in Ionic, Controllers are only called
+            // when they are recreated or on app start, instead of every page change.
+            // To listen for when this page is active (for example, to refresh data),
+            // listen for the $ionicView.enter event:
+            //
+            //$scope.$on('$ionicView.enter', function(e) {
+            //});
 
-.controller('StockDetailCtrl', function ($scope, $stateParams, StocksService) {
-    $scope.stock = StocksService.get($stateParams.stockSymbol);
-})
+            $scope.stocks = StocksService.all();
+        });
 
-.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
-});
+    marketSimulatorControllers.controller('StockDetailCtrl',
+        function ($scope, $stateParams, StocksService) {
+            $scope.stock = StocksService.get($stateParams.stockSymbol);
+        });
+
+    marketSimulatorControllers.controller('AccountCtrl',
+        function ($scope) {
+            $scope.settings = {
+                fetchLatest: false
+            };
+        });
+})();
